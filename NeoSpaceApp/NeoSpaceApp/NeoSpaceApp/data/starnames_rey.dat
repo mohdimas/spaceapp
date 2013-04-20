@@ -1,0 +1,1250 @@
+#
+# Andromeda
+#
+And Delta-31,Alpheratz
+And Epsilo-30,And Delta-31
+And Zeta-34,And Epsilo-30
+And Zeta-34,And Eta-38
+And Delta-31,And Pi-29
+And Pi-29,And Sigma-25
+And Sigma-25,And Iota-17
+And Iota-17,And Kappa-19
+And Kappa-19,And Lambda-16
+And Iota-17,And Omicron-1
+Mirach,And Delta-31
+Mirach,And Pi-29
+And Upsilo-50,Mirach
+And Gamma1-57,And Upsilo-50
+Mirach,And Mu-37
+And Mu-37,And Nu-35
+And Nu-35,And Phi-42
+And Phi-42,And 51
+#
+# Antlia
+#
+#   Diverge from Rey: he does not have Antlia
+Ant Iota,Ant Alpha
+Ant Alpha,Ant Theta
+Ant Theta,Ant Epsilon
+#
+# Apus
+#
+Aps Beta,Aps Gamma
+Aps Beta,Aps Delta1
+Aps Gamma,Aps Delta1
+Aps Delta1,Aps Alpha
+#
+# Aquarius
+#
+#   Head
+Sadalmelik,Aqr Pi-52
+Aqr Pi-52,Aqr Eta-62
+Aqr Eta-62,Sadachbia
+Sadachbia,Sadalmelik
+#   Body/Legs
+Sadalmelik,Sadalsud
+Sadalsud,Aqr Iota-33
+Sadalsud,Aqr Nu-13
+Aqr Nu-13,Aqr Mu-6
+Aqr Mu-6,Aqr Epsilon-2
+#   Arms
+Sadalmelik,Aqr Theta-43
+Aqr Theta-43,Aqr Lambda-73
+#   Bucket
+Aqr Lambda-73,Aqr Phi-90
+Aqr Phi-90,Aqr Psi1-91
+Aqr Psi1-91,Aqr Lambda-73
+Aqr Lambda-73,Aqr Tau2-71
+Aqr Tau2-71,Skat
+Skat,Aqr Psi1-91
+#   Water
+Aqr 101,Aqr 99
+Aqr 99,Aqr 98
+Aqr 98,Aqr Psi1-91
+Aqr Psi1-91,Aqr 88
+Aqr 88,Aqr 89
+Aqr 89,Aqr 86
+#
+# Aquila
+#
+Altair,Aql Beta-60
+Tarazed,Altair
+Aql Mu-38,Tarazed
+Aql Delta-30,Aql Mu-38
+Aql Lambda-16,Aql Delta-30
+Aql 12,Aql Lambda-16
+Aql Theta-65,Aql Eta-55
+Aql Eta-55,Aql Delta-30
+Aql Zeta-17,Aql Eta-55
+Aql Epsilo-13,Aql Zeta-17
+#
+# Ara
+#
+Ara Delta,Ara Eta
+Ara Zeta,Ara Eta
+Ara Epsilon1,Ara Zeta
+Ara Alpha,Ara Epsilon1
+Ara Theta,Ara Alpha
+Ara Delta,Ara Theta
+#
+# Aries
+#
+Ari Delta-57,Ari Epsilo-48
+Ari Epsilo-48,Ari 41
+Ari 41,Ari 35
+Ari 35,Hamal
+Hamal,Ari Lambda-9
+Ari Lambda-9,Sheratan
+Hamal,Sheratan
+Hamal,Ari Eta-17
+Ari Eta-17,Ari Gamma2-5
+Ari Eta-17,Ari Epsilo-48
+Ari 41,Ari 39
+Ari 39,Ari 35
+#
+# Auriga
+#
+Aur Delta-33,Menkalinan
+Menkalinan,Aur Theta-37
+Aur Theta-37,Aur Iota-3
+Aur Iota-3,Aur Eta-10
+Aur Eta-10,Aur Zeta-8
+Aur Zeta-8,Aur Epsilon-7
+Aur Epsilon-7,Capella
+Aur Eta-10,Capella
+Capella,Menkalinan
+Capella,Aur Delta-33
+#
+# Bootes
+#
+#   Body
+Arcturus,Boo Pi2-29
+Pulcherrima,Arcturus
+Pulcherrima,Boo Pi2-29
+#   Legs
+Muphrid,Arcturus
+Muphrid,Boo Upsilon-5
+Boo Upsilon-5,Boo Tau-4
+#   Head/Cap
+Nekkar,Boo Delta-49
+Boo Delta-49,Boo Mu1-51
+Boo Delta-49,Pulcherrima
+Nekkar,Boo Mu1-51
+Boo Gamma-27,Nekkar
+Pulcherrima,Boo Sigma-28
+Boo Sigma-28,Boo Rho-25
+Boo Rho-25,Boo Gamma-27
+#   Pipe
+Boo Theta-23,Boo Kappa1-17
+Boo Theta-23,Boo Lambda-19
+Boo Kappa1-17,Boo Lambda-19
+Boo Lambda-19,Boo Gamma-27
+#
+# Caelum
+#
+Cae Alpha,Cae Beta
+#
+# Camelopardalis - non-Rey
+#
+Cam 7,Cam Beta-10
+Cam Beta-10,Cam Alpha-9
+Cam Alpha-9,Cam Gamma
+Cam Gamma,0.9122 1.0460
+#
+# Cancer
+#
+Cnc Alpha-65,Cnc Delta-47
+Cnc Delta-47,Cnc Gamma-43
+Cnc Gamma-43,Cnc Iota-48
+Cnc Delta-47,Cnc Beta-17
+Cnc Beta-17,Cnc Zeta1-16
+Cnc Zeta1-16,Cnc Gamma-43
+#
+# Canes Venatici
+#
+CVn Alpha1-12,CVn Beta-8
+#
+# Canis Major
+#
+#   Head
+CMa Theta-14,CMa Iota-20
+CMa Theta-14,CMa Gamma-23
+CMa Gamma-23,CMa Iota-20
+CMa Iota-20,Sirius
+#   Body
+Sirius,CMa Nu2-7
+Sirius,CMa Omicr2-24
+CMa Omicr2-24,CMa Delta-25
+CMa Delta-25,CMa Sigma-22
+CMa Sigma-22,Adara
+Adara,CMa Omicr1-16
+CMa Omicr1-16,CMa Nu2-7
+#   Legs
+CMa Nu2-7,Mirzam
+CMa Nu2-7,CMa Xi1-4
+Adara,CMa Zeta-1
+Adara,CMa Kappa-13
+#   Tail
+CMa Delta-25,CMa Omega-28
+CMa Omega-28,CMa Eta-31
+#
+# Canis Minor
+#
+Procyon,Gomeisa
+#
+# Capricornus
+#
+#   Head
+Cap Theta-23,Cap Zeta-34
+Cap Zeta-34,Cap 36
+Cap 36,Cap Iota-32
+Cap Iota-32,Cap Theta-23
+Cap Iota-32,Cap Gamma-40
+Cap Gamma-40,Deneb Algiedi
+#   Body/Legs/Tail
+Cap Alpha1-5,Cap Beta-9
+Cap Beta-9,Cap Rho-11
+Cap Rho-11,Cap Omicro-12
+Cap Omicro-12,Cap Psi-16
+Cap Psi-16,Cap Omega-18
+Cap Beta-9,Cap Theta-23
+Cap Theta-23,Cap Eta-22
+Cap Eta-22,Cap 24
+Cap Eta-22,Cap Rho-11
+#
+# Carina
+#
+Canopus,Pup Nu
+Canopus,Car Beta
+Car Omega,Car Beta
+Car Theta,Car Omega
+# Temporary, lost figurehead
+Car Theta,Car Iota
+Car Epsilon,Car Iota
+Car Chi,Car Epsilon
+Vel Gamma2,Car Chi
+#
+# Cassiopeia
+#
+Cas 50,Cas Epsilo-45
+Cas Epsilo-45,Cas Delta-37
+Cas Delta-37,Cas Gamma-27
+Cas Gamma-27,Schedar
+Schedar,Caph
+#
+# Centaurus
+#
+#   Head
+Cen Phi,Cen Chi
+# Missing one between Chi and Psi
+Cen Chi,Cen Psi
+Cen Psi,Cen Theta-5
+Cen Theta-5,Cen Nu
+#   Body
+Cen Zeta,Cen Upsilon2
+Cen Upsilon2,Cen Upsilon1
+Cen Upsilon1,Cen Phi
+Cen Phi,Cen Nu
+Cen Nu,Cen Mu
+Cen Mu,Cen Zeta
+Cen Zeta,Cen Gamma
+Cen Zeta,Cen Epsilon
+Cen Epsilon,Cen Gamma
+Cen Gamma,Cen Sigma
+#   Arms
+Cen Phi,Cen Eta
+Cen Eta,Cen Kappa
+# 2 stars missing at end of left arm
+# 1 star missing between Nu and Iota
+Cen Nu,Cen Iota
+Cen Iota,Cen 1
+Cen 1,Cen 2
+Cen 1,Cen 3
+Cen 1,Cen 4
+#   Legs
+Hadar (Agena),Cen Epsilon
+Cen Epsilon,Rigil Kentaurus
+Cen Rho,Cen Lambda
+Cen Sigma,Cen Rho
+Cen Delta,Cen Sigma
+Cen Pi,Cen Delta
+#   Tail
+Cen Tau,Cen Gamma
+#
+# Cepheus
+#
+Alphirk,Alrai
+Alrai,Cep Iota-32
+Alphirk,Cep Iota-32
+Alderamin,Alphirk
+Cep Eta-3,Alderamin
+Cep Theta-2,Cep Eta-3
+Alderamin,Cep Mu
+Cep Mu,Cep Epsilo-23
+Cep Zeta-21,Cep Epsilo-23
+Cep Zeta-21,Cep Nu-10
+Cep Zeta-21,Cep Delta-27
+Cep Delta-27,Cep Iota-32
+#
+# Cetus
+#
+#   Tail
+Cet Gamma-86,Mekab
+Mekab,Cet Lambda-91
+Cet Lambda-91,Cet Mu-87
+Cet Mu-87,Cet Xi2-73
+Cet Xi2-73,Cet Nu-78
+Cet Nu-78,Cet Gamma-86
+Cet Gamma-86,Cet Delta-82
+#   Body
+Cet Delta-82,Mira
+Mira,Baten
+Cet Theta-45,Baten
+Cet Theta-45,Cet Iota-8
+Diphda,Cet Iota-8
+Cet Tau-52,Diphda
+Diphda,Cet Upsilo-59
+Cet Upsilo-59,Cet Delta-82
+#
+# Chamaeleon
+#
+Cha Theta,Cha Gamma
+Cha Gamma,Cha Epsilon
+Cha Epsilon,Cha Beta
+Cha Beta,Cha Delta1
+Cha Delta1,Cha Gamma
+Cha Gamma,Cha Alpha
+#
+# Circinus
+#
+Cir Gamma,Cir Alpha
+Cir Alpha,Cir Beta
+#
+# Columba
+#
+Col Epsilon,Phakt
+Phakt,Col Beta
+Col Beta,Col Gamma
+Col Gamma,Col Kappa
+Col Kappa,Col Delta
+Col Beta,Col Eta
+Col Gamma,Col Eta
+Col Gamma,Col Delta
+#
+# Coma Berenices
+#
+Com Alpha-42,Com Beta-43
+Com Beta-43,Com Gamma-15
+Com Beta-43,Com 14
+Com Beta-43,Com 16
+Com Beta-43,Com 17
+#
+# Corona Australis
+#
+CrA Epsilon,CrA Gamma
+CrA Gamma,Alkes
+Alkes,CrA Beta
+CrA Beta,CrA Delta
+CrA Delta,CrA Zeta
+CrA Zeta,CrA Eta2
+CrA Eta2,CrA Eta1
+#
+# Corona Borealis
+#
+CrB Theta-4,CrB Beta-3
+CrB Beta-3,Alphecca
+Alphecca,CrB Gamma-8
+CrB Gamma-8,CrB Delta-10
+CrB Delta-10,CrB Epsilo-13
+CrB Epsilo-13,CrB Iota-14
+#
+# Corvus
+#
+#   Missing star for foot
+Crv Alpha-1,Crv Epsilon-2
+Crv Epsilon-2,Crv Gamma-4
+Crv Gamma-4,Crv Delta-7
+Crv Delta-7,Crv Eta-8
+Crv Delta-7,Crv Beta-9
+Crv Beta-9,Crv Epsilon-2
+#
+# Crater
+#
+Crt Theta-21,Crt Eta-30
+Crt Eta-30,Crt Zeta-27
+Crt Zeta-27,Crt Lambda-13
+Crt Lambda-13,Crt Delta-12
+Crt Delta-12,Crt Kappa-16
+Crt Kappa-16,Crt Theta-21
+Crt Lambda-13,Crt Beta-11
+Crt Beta-11,Crt Alpha-7
+Crt Alpha-7,Crt Delta-12
+#
+# Crux
+#
+Acrux,Cru Gamma
+Mimosa,Cru Delta
+#
+# Cygnus
+#
+#   Northern Cross
+Cyg Chi,Albireo
+Cyg Eta-21,Cyg Chi
+Cyg Gamma-37,Cyg Eta-21
+Deneb,Cyg Gamma-37
+Cyg Delta-18,Cyg Gamma-37
+Cyg Gamma-37,Cyg Epsilo-53
+#   Wings
+Cyg Delta-18,Cyg Kappa-1
+Cyg Kappa-1,Cyg Iota2-10
+Cyg Iota2-10,Cyg 30
+Cyg 30,Deneb
+Cyg Epsilo-53,Cyg Zeta-64
+Cyg Zeta-64,Cyg Nu-58
+Cyg Nu-58,Deneb
+#   Feet
+Deneb,Cyg Xi-62
+Cyg Nu-58,Cyg Sigma-67
+Cyg Sigma-67,Cyg Tau-65
+#
+# Delphinus
+#
+Del Gamma1-12,Svalocin
+Svalocin,Rotanev
+Rotanev,Del Eta-3
+Del Eta-3,Del Epsilon-2
+Del Epsilon-2,Del Kappa-7
+Del Kappa-7,Del Iota-5
+Del Iota-5,Del Theta-8
+Del Theta-8,Del Delta-11
+Del Delta-11,Del Gamma1-12
+#
+# Dorado
+#
+Dor Gamma,Dor Alpha
+Dor Alpha,Dor Zeta
+Dor Zeta,Dor Beta
+Dor Beta,Dor Alpha
+Dor Beta,Dor Delta
+#   Fudged with Eta2 since the real star is missing
+Dor Beta,Dor Eta2
+Dor Eta2,Dor Delta
+#
+# Draco
+#
+Dra Nu1-24,Alwaid
+Alwaid,Rastaban
+Rastaban,Dra Xi-32
+Dra Xi-32,Dra Nu1-24
+Dra Xi-32,Dra Delta-57
+Dra Delta-57,Dra Epsilo-63
+Dra Delta-57,Dra Phi-43
+Dra Phi-43,Dra Chi-44
+Dra Phi-43,Dra Zeta-22
+Dra Zeta-22,Dra Eta-14
+Dra Eta-14,Dra Theta-13
+Dra Theta-13,Dra Iota-12
+Dra Iota-12,Thuban
+Thuban,Dra Kappa-5
+Dra Kappa-5,Dra Lambda-1
+#
+# Equuleus
+#
+#   Diverges from Rey
+Equ Delta-7,Equ Beta-10
+Equ Beta-10,Equ Alpha-8
+Equ Alpha-8,Equ Gamma-5
+#
+# Eridanus
+#
+Eri Lambda-69,Cursa
+Cursa,Eri Omega-61
+Eri Omega-61,Eri Mu-57
+Eri Mu-57,Eri Nu-48
+Eri Nu-48,Eri Omicr2-40
+Eri Omicr2-40,Zaurak
+Zaurak,Eri Pi-26
+Eri Pi-26,Eri Delta-23
+Eri Delta-23,Eri Epsilo-18
+Eri Epsilo-18,Eri Eta-3
+Eri Eta-3,Eri Tau1-1
+Eri Tau1-1,Eri Tau2-2
+Eri Tau2-2,Eri Tau3-11
+Eri Tau3-11,Eri 15
+Eri 15,Eri Tau5-19
+Eri Tau5-19,Eri Tau6-27
+Eri Tau6-27,Eri Tau9-36
+Eri Tau9-36,Eri Upsil2-52
+Eri Upsil2-52,Eri Upsil2-52
+Eri Upsil2-52,Eri 43
+Eri 43,Eri 43
+Eri 43,For Chi3
+For Chi3,Hor Delta
+Hor Delta,Eri Theta2
+Eri Theta2,Eri Theta2
+Eri Theta2,Eri Iota
+Eri Iota,Eri Kappa
+Eri Kappa,Eri Kappa
+Eri Kappa,Eri Phi
+Eri Phi,Eri Chi
+Eri Chi,Achernar
+#
+# Fornax
+#
+For Alpha,For Beta
+For Beta,For Nu
+#
+# Gemini
+#   Pollux
+Pollux,Gem Upsilo-69
+Gem Upsilo-69,Gem Kappa-77
+Gem Upsilo-69,Gem Iota-60
+Gem Upsilo-69,Wasat
+Wasat,Gem Lambda-54
+Wasat,Gem Zeta-43
+Gem Zeta-43,Gem Gamma-24
+Gem Lambda-54,Gem Xi-31
+#   Castor
+Gem Rho-62,Castor
+Gem Tau-46,Gem Rho-62
+Gem Tau-46,Gem Iota-60
+Gem Tau-46,Gem Theta-34
+MEbsuta,Gem Tau-46
+Gem Mu-13,MEbsuta
+Gem Nu-18,MEbsuta
+Gem Eta-7,Gem Mu-13
+#
+# Grus
+#
+Gru Gamma,Gru Lambda
+Gru Lambda,Gru Alpha
+Gru Alpha,Gru Delta1
+Gru Delta1,Gru Theta
+Gru Theta,Gru Iota
+Gru Iota,Gru Beta
+Gru Beta,Gru Alpha
+Gru Beta,Gru Epsilon
+Gru Beta,Gru Zeta
+#
+# Hercules
+#
+#   Head
+Her Pi-67,Her Eta-44
+Her Pi-67,Her Epsilo-58
+Her Epsilo-58,Her Zeta-40
+Her Eta-44,Her Zeta-40
+#   Arms/Club
+Her Pi-67,Her Rho-75
+Her Iota-85,Her Theta-91
+Her Theta-91,Her Rho-75
+Her Iota-85,Her 42
+Her 42,Her Tau-22
+Her Sigma-35,Her Tau-22
+Her Sigma-35,Her Iota-85
+Her Epsilo-58,Kornephoros
+Kornephoros,Her Gamma-20
+#   Body/Legs
+Her Rho-75,Her Xi-92
+Her Xi-92,Her Omicr-103
+Her Omicr-103,Her 95
+Her 95,Her 102
+Her 109,Her 102
+Her 109,Her 110
+Her 110,Her 111
+Her Mu-86,Her Xi-92
+Her Mu-86,Her Epsilo-58
+Her Mu-86,Her Lambda-76
+Her Delta-65,Her Lambda-76
+Her Delta-65,Her Alpha1-64
+#
+# Horologium
+#
+#   Not a Rey constellation
+Hor Alpha,Hor Iota
+Hor Iota,Hor Eta
+Hor Eta,Hor Zeta
+Hor Zeta,Hor Mu
+Hor Mu,Hor Beta
+#
+# Hydra
+#
+#   Head
+Hya Zeta-16,Hya Eta-7
+Hya Eta-7,Hya Sigma-5
+Hya Sigma-5,Hya Delta-4
+Hya Delta-4,Hya Epsilo-11
+Hya Epsilo-11,Hya Zeta-16
+#
+Hya Theta-22,Hya Zeta-16
+Hya Iota-35,Hya Theta-22
+Hya Alpha-30,Hya Iota-35
+Hya Upsil1-39,Hya Alpha-30
+Hya Upsil2-40,Hya Upsil1-39
+Hya Lambda-41,Hya Upsil2-40
+Hya Mu-42,Hya Lambda-41
+Hya Nu,Hya Mu-42
+Crt Alpha-7,Hya Nu
+Crt Beta-11,Crt Alpha-7
+Hya Xi,Crt Beta-11
+Hya Beta,Hya Xi
+Hya Gamma-46,Hya Beta
+Hya Pi-49,Hya Gamma-46
+#
+# Hydrus
+#
+Hyi Gamma,Hyi Beta
+Hyi Gamma,Hyi Epsilon
+Hyi Epsilon,Hyi Delta
+Hyi Delta,Hyi Eta2
+Hyi Eta2,Hyi Alpha
+#
+# Indus
+#
+Ind Alpha,Ind Beta
+Ind Beta,Ind Epsilon
+Ind Beta,Ind Delta
+Ind Delta,Ind Epsilon
+#
+# Lacerta
+#
+# Diverge from Rey: missing star between 1 and 6
+Lac 1,Lac 6
+Lac 6,Lac 11
+Lac 11,Lac 5
+Lac 5,Lac 2
+Lac 2,Lac 6
+Lac 5,Lac 4
+Lac 4,Lac Beta-3
+Lac Beta-3,Lac Alpha-7
+Lac Alpha-7,Lac 5
+#
+# Leo
+#
+#   Sickle
+Leo Kappa-1,Leo Lambda-4
+Leo Lambda-4,Leo Epsilo-17
+Leo Epsilo-17,Leo Mu-24
+Leo Mu-24,Leo Zeta-36
+Leo Zeta-36,Leo Gamma2-41
+Leo Gamma2-41,Leo Eta-30
+Leo Eta-30,Regulus
+#   Touch up sickle
+Leo Kappa-1,Leo Mu-24
+Leo Epsilo-17,Leo Eta-30
+#   Body/Legs/Tail
+Leo Eta-30,Leo Omicro-14
+Leo Eta-30,Leo Theta-70
+Leo Theta-70,Leo Rho-47
+Leo Theta-70,Leo Iota-78
+Leo Iota-78,Leo Sigma-77
+Leo Theta-70,Zozca
+Denebola,Zozca
+Zozca,Leo 60
+Leo 60,Leo Gamma2-41
+#
+# Leo Minor
+#
+LMi 46,LMi Beta-31
+LMi Beta-31,LMi 21
+LMi 21,LMi 10
+LMi 21,LMi 30
+LMi 30,LMi 46
+#
+# Lepus
+#
+#   Ears
+Lep Kappa-4,Lep Iota-3
+Lep Kappa-4,Lep Mu-5
+Lep Lambda-6,Lep Nu-7
+Lep Lambda-6,Lep Mu-5
+#   Head/Body
+Lep Mu-5,Arneb
+Arneb,Lep Zeta-14
+Lep Zeta-14,Lep Eta-16
+Lep Eta-16,Lep 17
+Lep 17,Lep Delta-15
+Lep Delta-15,Lep Gamma-13
+Lep Gamma-13,Lep Beta-9
+Lep Beta-9,Arneb
+Lep Beta-9,Lep Epsilon-2
+Lep Epsilon-2,Lep Mu-5
+#
+# Libra
+#
+#   Not exactly Rey, but close enough
+Lib 48,Lib Theta-46
+Lib Theta-46,Lib Eta-44
+Lib Eta-44,Lib Zeta4-35
+Lib Zeta4-35,Zuben el Chamali
+Zuben el Chamali,Lib Alpha2-9
+Lib Alpha2-9,Lib Sigma-20
+Lib Sigma-20,Lib Upsilo-39
+Lib Upsilo-39,Lib Tau-40
+Lib Sigma-20,Zuben el Chamali
+#
+# Lupus
+#
+#   Ears
+Lup Tau2,Lup Alpha
+Lup Alpha,Lup Iota
+#  Face
+Lup Alpha,Lup Rho
+Lup Rho,Lup Sigma
+#  Body
+Lup Rho,Lup Pi
+Lup Pi,Lup Lambda
+Lup Lambda,Lup Delta
+Lup Delta,Lup Upsilon
+Lup Upsilon,Lup Phi2
+Lup Phi2,Lup Phi1
+Lup Phi1,Lup Beta
+Lup Beta,Lup Omicron
+Lup Omicron,Lup Alpha
+#   Legs
+Lup Pi,Lup Kappa1
+Lup Kappa1,Lup Zeta
+Lup Lambda,Lup Mu
+Lup Mu,Lup Epsilon
+Lup Upsilon,Lup Gamma
+Lup Gamma,Lup Omega
+# 1 missing at the end of the 3rd leg
+Lup Phi1,Lup Eta
+#   Tail
+Lup Phi1,Lup Chi-5
+Lup Chi-5,Lup Theta
+#
+# Lynx
+#
+Lyn Alpha-40,Lyn 38
+Lyn 38,Lyn 35
+Lyn 35,Lyn 31
+Lyn 31,Lyn 21
+Lyn 21,Lyn 15
+Lyn 15,Lyn 2
+#
+# Lyra
+#
+Vega,Lyr Epsilo1-4
+Lyr Epsilo1-4,Lyr 13
+Lyr 13,Lyr Eta-20
+Lyr Eta-20,Lyr Theta-21
+Lyr Theta-21,Sulaphat
+Sulaphat,Lyr Delta1-11
+Sheliak,Sulaphat
+Lyr Zeta1-6,Sheliak
+Sheliak,Lyr Kappa-1
+Vega,Lyr Kappa-1
+# Don't close the diamond
+#Lyr Delta1-11,Lyr Zeta1-6
+#
+# Mensa
+#
+#   Not a Rey constellation
+Men Alpha,Men Gamma
+Men Gamma,Men Eta
+Men Eta,Men Beta
+#
+# Microscopium
+#
+#   Not a Rey constellation
+Mic Theta1,Mic Epsilon
+Mic Epsilon,Mic Gamma
+Mic Gamma,Mic Beta
+Mic Beta,Mic Alpha
+#
+# Monoceros
+#
+#   Head/Neck
+Mon Epsilon-8,Mon 13
+Mon 13,Mon 15
+Mon 13,Mon 18
+Mon 18,Mon Epsilon-8
+Mon 18,Mon Delta-22
+#   Body/Legs
+Mon Delta-22,Mon Beta-11
+Mon Beta-11,Mon Gamma-5
+Mon Delta-22,Mon 28
+Mon 28,Mon Zeta-29
+Mon 28,Mon Alpha-26
+#
+# Musca
+#
+Mus Delta,Mus Gamma
+Mus Delta,Mus Alpha
+Mus Alpha,Mus Gamma
+Mus Beta,Mus Alpha
+Mus Alpha,Mus Epsilon
+Mus Epsilon,Mus Lambda
+#
+# Norma
+#
+Nor Eta,Nor Delta
+Nor Delta,Nor Epsilon
+Nor Epsilon,Nor Gamma2
+Nor Gamma2,Nor Eta
+#
+# Octans
+#
+#   Added Epsilon from Rey
+Oct Delta,Oct Nu
+Oct Nu,Oct Epsilon
+Oct Epsilon,Oct Beta
+Oct Beta,Oct Delta
+#
+# Ophiuchus
+#
+#   Head/Body
+Kelb al Rai,Oph Kappa-27
+Oph Kappa-27,Ras Alhague
+Ras Alhague,Kelb al Rai
+#Kelb al Rai,Oph Mu-57
+Kelb al Rai,Oph Eta-35
+#Oph Mu-57,Oph Eta-35
+Oph Eta-35,Oph Zeta-13
+Oph Zeta-13,Oph Kappa-27
+#   Arms
+Oph Kappa-27,Oph Iota-25
+Oph Lambda-10,Oph Iota-25
+Oph Delta-1,Oph Lambda-10
+Oph Epsilon-2,Oph Delta-1
+Oph Upsilon-3,Oph Epsilon-2
+Oph Gamma-62,Kelb al Rai
+Oph 67,Oph Gamma-62
+Oph 70,Oph 67
+Oph 70,Oph 68
+Oph 68,Oph 67
+Oph 72,Oph 70
+#   Legs
+Oph Zeta-13,Oph Phi-8
+Oph Phi-8,Oph Chi-7
+Oph Chi-7,Oph Psi-4
+Oph Psi-4,Oph Omega-9
+Oph Eta-35,Oph Xi-40
+Oph Xi-40,Oph 51
+Oph 51,Oph 44
+Oph 44,Oph Theta-42
+Oph Theta-42,Oph 45
+#
+# Orion
+#
+Betelgeuse,Ori Sigma-48
+Ori Sigma-48,Ori Kappa-53
+#Ori Kappa-53,Rigel
+Rigel,Ori Eta-28
+Ori Eta-28,Mintaka
+Mintaka,Bellatrix
+Ori Chi1-54,Ori Chi2-62
+Ori Nu-67,Ori Chi1-54
+Ori Xi-70,Ori Nu-67
+Ori Chi2-62,Ori Xi-70
+Ori Xi-70,Ori Mu-61
+Ori Mu-61,Betelgeuse
+Ori 32,Betelgeuse
+Ori Lambda-39,Ori 32
+Ori 32,Bellatrix
+Bellatrix,Ori Pi3-1
+#   Bow or Shield
+Ori Pi3-1,Ori Pi4-3
+Ori Pi4-3,Ori Pi5-8
+Ori Pi5-8,Ori Pi6-10
+Ori Pi3-1,Ori Pi2-2
+Ori Pi2-2,Ori Pi1-7
+#
+# Pavo
+#
+#   Tail
+Pav Alpha,Pav Gamma
+Pav Gamma,Pav Beta
+Pav Delta,Pav Beta
+Pav Delta,Pav Alpha
+#   Body
+Pav Delta,Pav Epsilon
+Pav Epsilon,Pav Zeta
+Pav Zeta,Pav Kappa
+Pav Kappa,Pav Delta
+#   Head
+Pav Kappa,Pav Lambda
+Pav Xi,Pav Lambda
+Pav Pi,Pav Xi
+Pav Eta,Pav Pi
+Pav Lambda,Pav Pi
+#
+# Pegasus
+#
+#   Wing
+Markab,Algenib
+Markab,Peg Beta-53
+Algenib,Peg Beta-53
+#   Body
+Peg Xi-46,Markab
+Markab,Peg Lambda-47
+Peg Lambda-47,Peg Iota-24
+Peg Iota-24,Peg Xi-46
+#   Tail
+Peg 55,Markab
+Peg 58,Markab
+#   Rear Legs
+Homam,Peg Xi-46
+Peg Theta-26,Homam
+Eniph,Homam
+#   Head
+Peg Mu-48,Peg Lambda-47
+Peg Mu-48,Peg Eta-44
+Peg Eta-44,Peg Pi1-27
+#   Front Legs
+Peg Iota-24,Peg 9
+Peg Kappa-10,Peg Iota-24
+Peg Kappa-10,Peg 1
+#
+# Perseus
+#
+#   Head
+Mirfak,Per Gamma-23
+Per Gamma-23,Per Eta-15
+Per Eta-15,Per Tau-18
+Per Tau-18,Per Gamma-23
+Per Tau-18,Per Iota
+Mirfak,Per Iota
+#   Body
+Per Iota,Per Kappa-27
+Per Kappa-27,Algol
+Algol,Per Epsilo-45
+Per Nu-41,Per Epsilo-45
+Per Nu-41,Per Sigma-35
+Per Sigma-35,Mirfak
+#   Arms
+Per Psi-37,Mirfak
+Per Delta-39,Per Psi-37
+Per 48,Per Delta-39
+Per Mu-51,Per 48
+Per Lambda-47,Per Mu-51
+Per Iota,Per Theta-13
+Per Theta-13,Per Phi
+#   Legs
+Per Epsilo-45,Per Xi-46
+Per Xi-46,Per Zeta-44
+Per Zeta-44,Per Omicro-38
+Algol,Per Rho-25
+Per Rho-25,Per Pi-22
+#
+# Phoenix
+#
+Phe Kappa,Phe Epsilon
+Phe Kappa,Phe Alpha
+Phe Alpha,Phe Epsilon
+Phe Kappa,Phe Mu
+Phe Mu,Phe Beta
+Phe Mu,Phe Zeta
+Phe Mu,Phe Gamma
+Phe Beta,Phe Zeta
+Phe Beta,Phe Gamma
+Phe Beta,Phe Delta
+Phe Beta,Phe Psi
+Phe Psi,Phe Delta
+#
+# Pictor
+#
+Pic Alpha,Pic Gamma
+Pic Gamma,Pic Beta
+Pic Beta,Pic Alpha
+#
+# Pisces
+#
+#   North Head
+Psc Phi-85,Psc Tau-83
+Psc Tau-83,Psc Upsilo-90
+Psc Upsilo-90,Psc Phi-85
+#   Bodies
+Psc Phi-85,Psc 94
+Psc 94,Psc Eta-99
+Psc Eta-99,Psc Omicr-110
+Psc Omicr-110,Kaitain
+# (Knot)
+Kaitain,Psc Nu-106
+Psc Nu-106,Psc Mu-98
+Psc Mu-98,Psc Epsilo-71
+Psc Epsilo-71,Psc Delta-63
+Psc Delta-63,Psc Omega-28
+Psc Omega-28,Psc Iota-17
+#   West Head
+Psc Iota-17,Psc Theta-10
+Psc Theta-10,Psc Gamma-6
+Psc Gamma-6,Psc Kappa-8
+Psc Kappa-8,Psc Lambda-18
+Psc Lambda-18,Psc Iota-17
+#
+# Piscis Austrinus
+#
+Fomalhaut,PsA Epsilo-18
+PsA Epsilo-18,PsA Mu-14
+PsA Mu-14,PsA Theta-10
+PsA Theta-10,PsA Iota-9
+PsA Iota-9,PsA Mu-14
+PsA Mu-14,PsA Beta-17
+PsA Beta-17,PsA Gamma-22
+PsA Gamma-22,PsA Delta-23
+PsA Delta-23,Fomalhaut
+#
+# Puppis
+#
+Pup Pi,Pup Nu
+# Temporary, lost transom
+Pup 3,Pup Pi
+Pup Omicron,Pup 3
+Pup Xi-7,Pup Omicron
+Pup 11,Pup Xi-7
+Pup Rho-15,Pup 11
+Pup Zeta,Pup Rho-15
+Vel Gamma2,Pup Zeta
+#
+# Pyxis
+#
+Pup Zeta,Pyx Beta
+Pyx Beta,Pyx Alpha
+Pyx Alpha,Pyx Gamma
+#
+# Reticulum
+#
+Ret Beta,Ret Alpha
+Ret Alpha,Ret Epsilon
+Ret Epsilon,Ret Iota
+Ret Iota,Ret Delta
+Ret Delta,Ret Beta
+#
+# Sagitta
+#
+Sge Eta-16,Sge Gamma-12
+Sge Gamma-12,Sge Delta-7
+Sge Delta-7,Sge Beta-6
+Sge Delta-7,Sge Alpha-5
+#
+# Sagitarrius
+#
+#   Head
+Sgr Upsilo-46,Sgr Rho1-44
+Sgr Rho1-44,Sgr Pi-41
+Sgr Pi-41,Sgr Xi2-37
+Sgr Xi2-37,Sgr Sigma-34
+Sgr Sigma-34,Sgr Pi-41
+#   Body
+Sgr Tau-40,Sgr Zeta-38
+Sgr Zeta-38,Sgr Phi-27
+Sgr Phi-27,Sgr Sigma-34
+Sgr Sigma-34,Sgr Tau-40
+Sgr Tau-40,Sgr Theta1
+Sgr Theta1,Sgr Iota
+Sgr Theta1,Sgr Alpha
+Sgr Alpha,Sgr Beta1
+Sgr Alpha,Sgr Zeta-38
+#   Bow
+#
+Sgr Phi-27,Sgr Delta-19
+Sgr Delta-19,Sgr Gamma2-10
+Sgr Delta-19,Sgr Lambda-22
+Sgr Lambda-22,Sgr Mu-13
+Sgr Mu-13,Sgr Gamma2-10
+Sgr Gamma2-10,Sgr Eta
+Kaus Australis,Sgr Eta
+Sgr Delta-19,Kaus Australis
+#
+# Scorpius
+#
+#   Claws
+Sco Delta-7,Sco Beta1-8
+Sco Beta1-8,Sco Nu-14
+Sco Nu-14,Sco Sigma-20
+Sco Sigma-20,Sco 13
+Sco 13,Sco Rho-5
+#
+Sco Sigma-20,Antares
+Antares,Sco Tau-23
+Sco Tau-23,Sco Epsilo-26
+Sco Epsilo-26,Sco Mu1
+Sco Mu1,Sco Zeta2
+Sco Zeta2,Sco Eta
+Sco Eta,Sco Theta
+Sco Theta,Sco Iota2
+Sco Iota2,Sco Iota1
+Sco Iota1,Sco Kappa
+Sco Kappa,Sco Upsilo-34
+Sco Upsilo-34,Shaula
+#   Missing one at the tail
+#
+# Sculptor
+#
+#   Not a Rey constellation
+Scl Alpha,Scl Iota
+Scl Iota,Scl Delta
+Scl Delta,Scl Gamma
+Scl Gamma,Scl Beta
+#
+# Scutum
+#
+Sct Beta,Sct Alpha
+Sct Alpha,Sct Gamma
+Sct Gamma,Sct Delta
+Sct Delta,Sct Beta
+#
+# Serpens
+#
+#   Sepens Cauda
+#      Head
+Ser Gamma-41,Ser Kappa-35
+Ser Kappa-35,Ser Iota-21
+Ser Beta-28,Ser Gamma-41
+Ser Iota-21,Ser Beta-28
+#
+Ser Delta-13,Ser Beta-28
+Ser Delta-13,Ser Lambda-27
+Unukalhay,Ser Lambda-27
+Ser Epsilo-37,Unukalhay
+Ser Mu-32,Ser Epsilo-37
+Ser Mu-32,Oph Delta-1
+#   Sepens Caput
+Ser Theta1-63,Oph 72
+Oph 70,Ser Eta-58
+Ser Eta-58,Oph Nu-64
+Oph Nu-64,Ser Omicro-56
+Ser Omicro-56,Ser Xi-55
+Ser Xi-55,Ser Nu-53
+#
+# Sextans
+#
+#   Not a Rey constellation
+Sex Delta-29,Sex Alpha-15
+Sex Alpha-15,Sex Gamma-8
+#
+# Taurus
+#
+Tau 5,Tau Xi-2
+Tau Xi-2,Tau Omicron-1
+Tau Omicron-1,Tau 10
+Tau Xi-2,Tau Nu-38
+Tau Lambda-35,Tau Xi-2
+Tau Gamma-54,Tau Lambda-35
+Tau Gamma-54,Tau Mu-49
+Tau Gamma-54,Tau 90
+Tau 90,Tau 88
+Tau Gamma-54,Tau Theta2-78
+Tau Theta2-78,Aldebaran
+Aldebaran,Tau Zeta-123
+Tau Zeta-123,Tau Tau-94
+Alnath,Tau Tau-94
+Tau Tau-94,Tau Upsilo-69
+Tau Upsilo-69,Atlas
+Tau Upsilo-69,Tau Kappa1-65
+Tau Kappa1-65,Tau Epsilo-74
+Tau Epsilo-74,Tau Delta3-68
+Tau Delta3-68,Tau Delta1-61
+Tau Delta1-61,Tau Gamma-54
+#
+# Telescopium
+#
+# Extra part not included by Rey
+#Tel Epsilon,Tel Alpha
+Tel Alpha,Tel Zeta
+#
+# Triangularum
+#
+Tri Alpha-2,Tri Epsilon-3
+Tri Epsilon-3,Tri Beta-4
+Tri Beta-4,Tri Gamma-9
+Tri Gamma-9,Tri Alpha-2
+#
+# Triangulum Australe
+#
+TrA Alpha,TrA Beta
+TrA Beta,TrA Epsilon
+TrA Epsilon,TrA Gamma
+TrA Gamma,TrA Alpha
+#
+# Tucana
+#
+#   Rey doesn't have Delta
+#Tuc Delta,Tuc Alpha
+Tuc Alpha,Tuc Gamma
+Tuc Gamma,Tuc Epsilon
+Tuc Epsilon,Tuc Zeta
+Tuc Zeta,Tuc Beta1
+Tuc Beta1,Tuc Gamma
+#
+# Ursa Major
+#
+#   Big Dipper
+Benetnasch,Mizar
+Mizar,Alioth
+Alioth,Megrez
+Megrez,Phecda
+Phecda,Merak
+Merak,Dubhe
+Megrez,Dubhe
+#   Rest of the Bear
+Dubhe,UMa 23
+UMa 23,UMa Omicron-1
+UMa 23,UMa Upsilo-29
+UMa Phi-30,UMa Upsilo-29
+UMa Phi-30,UMa Lambda-33
+UMa Omicron-1,Talitha
+UMa Kappa-12,UMa Mu-34
+UMa Mu-34,UMa Nu-54
+UMa Psi-52,UMa Nu-54
+UMa Chi-63,UMa Psi-52
+UMa Chi-63,Benetnasch
+#
+# Ursa Minor
+#
+Polaris,UMi Delta-23
+UMi Delta-23,UMi Epsilo-22
+UMi Epsilo-22,UMi Zeta-16
+UMi Zeta-16,Kocab
+Kocab,UMi Gamma-13
+UMi Gamma-13,UMi Eta-21
+UMi Eta-21,UMi Zeta-16
+#
+# Vela
+#
+# Temporary, lost top of sail
+Vel Mu,Vel Psi
+Vel Psi,Vel Lambda
+Vel Lambda,Vel Gamma2
+Vel Gamma2,Vel Delta
+Vel Delta,Vel Kappa
+Vel Kappa,Vel Phi
+Vel Phi,Vel Mu
+#
+# Virgo
+#
+Vir Omicron-9,Vir Gamma-29
+Vir Omicron-9,Vir Nu-3
+Vir Nu-3,Zawijah
+Zawijah,Vir Eta-15
+Vir Eta-15,Vir Gamma-29
+Vir Gamma-29,Vir Delta-43
+Vir Delta-43,Vindemiatrix
+Vir Delta-43,Vir Zeta-79
+Vir Zeta-79,Spica
+Spica,Vir Theta-51
+Vir Theta-51,Vir Gamma-29
+Vir Zeta-79,Vir Tau-93
+Vir Tau-93,Vir 109
+Spica,Vir Kappa-98
+Vir Kappa-98,Vir Iota-99
+Vir Iota-99,Vir Mu-107
+Vir Tau-93,Vir Iota-99
+#
+# Volans
+#
+Vol Alpha,Vol Beta
+Vol Beta,Vol Epsilon
+Vol Epsilon,Vol Alpha
+Vol Epsilon,Vol Delta
+Vol Epsilon,Vol Eta
+Vol Epsilon,Vol Gamma1
+Vol Gamma1,Vol Zeta
+Vol Zeta,Vol Epsilon
+#
+# Vulpecula
+#
+Vul 13,Vul Alpha-6
+Vul Alpha-6,Vul 1
+#
