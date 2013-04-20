@@ -35,6 +35,8 @@ namespace NeoSpaceApp
         private double[] brightnesses = { 1.0, 0.9, 0.7, 1.0, 0.7, 0.4, 0.1 };
         private int xmid, ymid;
 
+        Texture2D canvas;
+
         public GamePage()
         {
             InitializeComponent();
@@ -70,6 +72,8 @@ namespace NeoSpaceApp
 
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(SharedGraphicsDeviceManager.Current.GraphicsDevice);
+            canvas = new Texture2D(spriteBatch.GraphicsDevice, 1, 1, false,
+    SurfaceFormat.Color);
 
             // TODO: use this.content to load your game content here
             myFont = contentManager.Load<SpriteFont>("SpriteFontNeo");
@@ -203,8 +207,6 @@ namespace NeoSpaceApp
             if (color == null)
                 color = Color.Blue;
 
-            var canvas = new Texture2D(SharedGraphicsDeviceManager.Current.GraphicsDevice, 1, 1, false,
-    SurfaceFormat.Color);
             canvas.SetData<Color>(new[] { (Color)color });
 
             spriteBatch.Draw(canvas, start, null, (Color) color,
