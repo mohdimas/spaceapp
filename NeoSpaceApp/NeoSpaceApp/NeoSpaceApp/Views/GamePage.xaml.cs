@@ -15,6 +15,7 @@ using Microsoft.Xna.Framework.Graphics;
 using NeoSpaceApp.Models;
 using Microsoft.Xna.Framework.Input.Touch;
 using Microsoft.Devices.Sensors;
+using NeoSpaceApp.Extensions;
 
 namespace NeoSpaceApp
 {
@@ -81,6 +82,8 @@ namespace NeoSpaceApp
             // Start the timer
             timer.Start();
 
+            TouchPanel.EnabledGestures = GestureType.Pinch | GestureType.FreeDrag;
+
             // If the Motion object is null, initialize it and add a CurrentValueChanged
             // event handler.
             if (Motion.IsSupported)
@@ -108,8 +111,8 @@ namespace NeoSpaceApp
 
         void motion_CurrentValueChanged(object sender, SensorReadingEventArgs<MotionReading> e)
         {
-            verPos = MathHelper.ToDegrees(e.SensorReading.Attitude.Pitch);
-            horPos = MathHelper.ToDegrees(e.SensorReading.Attitude.Yaw);
+            verPos = 120 - MathHelper.ToDegrees(e.SensorReading.Attitude.Pitch);
+            horPos = -MathHelper.ToDegrees(e.SensorReading.Attitude.Yaw);
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -133,35 +136,56 @@ namespace NeoSpaceApp
         private void OnUpdate(object sender, GameTimerEventArgs e)
         {
             // TODO: Add your update logic here
-            if (!IsMotion)
+            if (TouchPanel.IsGestureAvailable && !IsDrawing)
             {
-                foreach (TouchLocation location in TouchPanel.GetState())
+                var gesture = TouchPanel.ReadGesture();
+
+                if (gesture.GestureType == GestureType.FreeDrag && !IsMotion)
                 {
-                    TouchLocation prev;
-                    if (location.TryGetPreviousLocation(out prev))
+                    foreach (TouchLocation location in TouchPanel.GetState())
                     {
-                        if (location.Position.X - prev.Position.X != 0)
+                        TouchLocation prev;
+                        if (location.TryGetPreviousLocation(out prev))
                         {
-                            horPos += (prev.Position.X - location.Position.X) * 0.1;
+                            if (location.Position.X - prev.Position.X != 0)
+                            {
+                                horPos += (prev.Position.X - location.Position.X) * 0.1;
 
-                            if (horPos > 360)
-                                horPos = 0;
+                                if (horPos > 360)
+                                    horPos = 0;
 
-                            if (horPos < 0)
-                                horPos = 360;
-                        }
+                                if (horPos < 0)
+                                    horPos = 360;
+                            }
 
-                        if (location.Position.Y - prev.Position.Y != 0)
-                        {
-                            verPos += (prev.Position.Y - location.Position.Y) * 0.1;
+                            if (location.Position.Y - prev.Position.Y != 0)
+                            {
+                                verPos += (prev.Position.Y - location.Position.Y) * 0.1;
 
-                            if (verPos > 360)
-                                verPos = 0;
+                                if (verPos > 360)
+                                    verPos = 0;
 
-                            if (verPos < 0)
-                                verPos = 360;
+                                if (verPos < 0)
+                                    verPos = 360;
+                            }
                         }
                     }
+                }
+                else if (gesture.GestureType == GestureType.Pinch)
+                {
+                    /*float scaleFactor = PinchZoom.GetScaleFactor(gesture.Position, gesture.Position2,
+                gesture.Delta, gesture.Delta2);
+
+                    if(scaleFactor > 1)
+                        model.angle--;
+                    else if(scaleFactor < 1)
+                        model.angle++;
+
+                    if (model.angle > 60)
+                        model.angle = 60;
+                    if (model.angle < 30)
+                        model.angle = 30;
+                    */
                 }
             }
 
@@ -205,7 +229,7 @@ namespace NeoSpaceApp
         private void DrawLine(Vector2 start, Vector2 end, Color? color = null)
         {
             if (color == null)
-                color = Color.Blue;
+                color = Color.Green;
 
             canvas.SetData<Color>(new[] { (Color)color });
 
@@ -308,11 +332,13 @@ namespace NeoSpaceApp
                             case 0:
                                 DrawLine(new Vector2(x - 2, y), new Vector2(x + 2, y), color);
                                 DrawLine(new Vector2(x, y - 2), new Vector2(x, y + 2), color);
+                                DrawLine(new Vector2(x - 1, y - 1), new Vector2(x + 1, y + 1), color);
+                                DrawLine(new Vector2(x + 1, y - 1), new Vector2(x - 1, y + 1), color);
                                 break;
                             case 1:
                             case 2:
-                                DrawLine(new Vector2(x, y), new Vector2(x + 2, y), color);
-                                DrawLine(new Vector2(x, y - 2), new Vector2(x + 2, y - 2), color);
+                                DrawLine(new Vector2(x - 2, y - 2), new Vector2(x + 2, y + 2), color);
+                                DrawLine(new Vector2(x + 2, y - 2), new Vector2(x - 2, y + 2), color);
                                 break;
                             default:
                                 DrawLine(new Vector2(x - 1, y), new Vector2(x + 1, y), color);

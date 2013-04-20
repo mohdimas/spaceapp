@@ -19,6 +19,7 @@
     <cc:AnimatedBasePage.ApplicationBar>
         <shell:ApplicationBar BackgroundColor="#FF181616" ForegroundColor="White">
             <shell:ApplicationBarIconButton IconUri="/icons/appbar.refresh.rest.png" Text="refresh" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/icons/ar.png" Text="stargazing" Click="ApplicationBarIconButton_Click_1"/>
         </shell:ApplicationBar>
     </cc:AnimatedBasePage.ApplicationBar>
 

@@ -116,5 +116,10 @@ namespace NeoSpaceApp.Views
         {
             _vm.Refresh();
         }
+
+        private void ApplicationBarIconButton_Click_1(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Views/GamePage.xaml", UriKind.Relative));
+        }
     }
 }

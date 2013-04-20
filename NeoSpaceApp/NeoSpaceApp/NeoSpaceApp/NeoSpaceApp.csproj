@@ -98,6 +98,7 @@
     <Compile Include="Extensions\Helpers\AnimationHelper.cs" />
     <Compile Include="Extensions\Helpers\ParseHelper.cs" />
     <Compile Include="Extensions\ItemsControlHelper.cs" />
+    <Compile Include="Extensions\PinchZoom.cs" />
     <Compile Include="Extensions\VisualTreeExtensions.cs" />
     <Compile Include="Models\ConstellationModel.cs" />
     <Compile Include="Models\LoadableBase.cs" />
@@ -228,6 +229,7 @@
     <Content Include="data\YBSmain.dat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="icons\ar.png" />
     <Content Include="README_FIRST.txt" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
