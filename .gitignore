@@ -1,0 +1,18 @@
+# Windows and Mac OS X Temp Cache Files
+[Tt]humbs.db
+*.DS_Store
+ 
+# Visual Studio files
+*.suo
+*.user
+bin
+obj
+publish
+
+# Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+# Misc
+packages

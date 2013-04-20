@@ -1,0 +1,67 @@
+﻿<cc:AnimatedBasePage x:Name="Page"
+    x:Class="NeoSpaceApp.Views.NewsListPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:cc="clr-namespace:Clarity.Phone.Controls"
+    xmlns:ir="clr-namespace:NeoSpaceApp.Controls"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:tc="clr-namespace:ControlTiltEffect"
+	tc:TiltEffect.IsTiltEnabled="True"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+    <cc:AnimatedBasePage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="#FF181616" ForegroundColor="White">
+            <shell:ApplicationBarIconButton IconUri="/icons/appbar.refresh.rest.png" Text="refresh" Click="ApplicationBarIconButton_Click"/>
+        </shell:ApplicationBar>
+    </cc:AnimatedBasePage.ApplicationBar>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <ScrollViewer>
+            <StackPanel>
+                <StackPanel DataContext="{Binding FirstNews}" Visibility="{Binding Model.Synopsis, Converter={StaticResource TextToVisibilityConverter}, FallbackValue=Collapsed}">
+                    <Button x:Name="Button_FirstItem" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Padding="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" BorderThickness="0" Style="{StaticResource ButtonBorderless}" DataContext="{Binding Model}" Visibility="{Binding Synopsis, Converter={StaticResource TextToVisibilityConverter}}">
+                        <StackPanel Orientation="Vertical">
+                            <Grid x:Name="FirstItem" Background="#FF181616" Height="290">
+                                <Image Margin="0" Source="{Binding Image}" ImageOpened="Image_ImageOpened" Stretch="UniformToFill"/>
+                                <Image Height="290" Margin="0" Source="/IntisariReader;component/Images/vignette.png" Stretch="Fill"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="24,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Text="{Binding Date}" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment, Margin" Foreground="#E5FFFFFF" FontFamily="Segoe WP SemiLight"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="24,0,10,15" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="32" Text="{Binding Title}" Foreground="{StaticResource PhoneAccentBrush}" d:LayoutOverrides="HorizontalAlignment" FontWeight="Bold" Opacity="0.9" FontFamily="Segoe WP"/>
+                            </Grid>
+                            <TextBlock TextWrapping="Wrap" Text="{Binding Synopsis}" HorizontalAlignment="Left" FontFamily="Segoe WP" FontSize="21.333" Margin="24,10,0,10" Foreground="Black" VerticalAlignment="Bottom" d:LayoutOverrides="HorizontalAlignment"/>
+                            <Rectangle Height="1" Fill="Gray" Margin="24,0,24,30"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <ir:CustomListBox x:Name="ListBox_News" Style="{StaticResource ListBoxStyle1}" ButtonVisibility="Visible" ItemsSource="{Binding SecondaryNewsList}" Margin="24,0" SelectionChanged="ListBox_News_SelectionChanged" ItemsPanel="{StaticResource ItemsPanelStackPanel}" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                    <ir:CustomListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border Margin="0,5,0,30" BorderThickness="0,0,0,1" BorderBrush="Gray" DataContext="{Binding Model}" Visibility="{Binding Synopsis, Converter={StaticResource TextToVisibilityConverter}}">
+                                <StackPanel Margin="0,0,0,11" Orientation="Vertical" d:LayoutOverrides="Height">
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Title, FallbackValue=Lorem Ipsum}" HorizontalAlignment="Left" FontFamily="Segoe WP Semibold" FontSize="24" Margin="0" Foreground="Black"/>
+                                    <Grid HorizontalAlignment="Left" Height="84" Width="84" Visibility="{Binding Image, Converter={StaticResource TextToVisibilityConverter}}" Margin="0,10">
+                                        <Rectangle Fill="#FF1D1C1C" Margin="0"/>
+                                        <Image Margin="0" Source="{Binding Image}" ImageOpened="Image_ImageOpened" Stretch="UniformToFill"/>
+                                    </Grid>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Synopsis, FallbackValue=Lorem Ipsum}" HorizontalAlignment="Left" FontFamily="Segoe WP" FontSize="21.333" Margin="0" Foreground="Black"/>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Date, FallbackValue=4/4/2012}" HorizontalAlignment="Left" FontFamily="Segoe WP" FontSize="18.667" Margin="0" Foreground="#FF606060"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ir:CustomListBox.ItemTemplate>
+                </ir:CustomListBox>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!--ContentPanel - place additional content here-->
+
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+</cc:AnimatedBasePage>

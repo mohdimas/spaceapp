@@ -1,0 +1,9 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:converter="clr-namespace:NeoSpaceApp.Extensions.Converters">
+	<!-- Resource dictionary entries should be defined here. -->
+	<converter:TextToVisibilityConverter x:Key="TextToVisibilityConverter"/>
+    <converter:TextToListTextConverter x:Key="TextToListTextConverter"/>
+    <converter:NewsListConverter x:Key="NewsListConverter"/>
+</ResourceDictionary>
