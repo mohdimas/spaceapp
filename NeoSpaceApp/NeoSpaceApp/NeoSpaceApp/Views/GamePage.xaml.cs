@@ -136,7 +136,7 @@ namespace NeoSpaceApp
         private void OnUpdate(object sender, GameTimerEventArgs e)
         {
             // TODO: Add your update logic here
-            if (TouchPanel.IsGestureAvailable && !IsDrawing)
+            if (TouchPanel.IsGestureAvailable)
             {
                 var gesture = TouchPanel.ReadGesture();
 
